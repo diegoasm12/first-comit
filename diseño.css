@@ -1,0 +1,25 @@
+.NAV ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.NAV a {
+    display: block;
+    padding: 2em;
+    
+    text-decoration: none;
+    color: #191C26;
+}
+.NAV a:hover {
+    background-color: #555252;
+}
+.NAV ul li ul {
+    display: none;
+}
+.NAV ul li a:hover + ul, .NAV ul li ul:hover {
+    display: block;
+}
+.B b:hover{
+    background-color: #555252;
+}
